@@ -1,0 +1,57 @@
+/* Media Queries for Responsive Design */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+
+    input {
+        font-size: 0.95rem;
+    }
+
+    button {
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+        max-width: 95%;
+    }
+
+    input {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Smaller Mobile Phones */
+@media (max-width: 400px) {
+    .container {
+        padding: 0.75rem;
+        max-width: 100%;
+    }
+
+    input {
+        font-size: 0.85rem;
+    }
+
+    button {
+        font-size: 0.85rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
